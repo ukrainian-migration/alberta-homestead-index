@@ -34,6 +34,7 @@ The scraped data is saved according to the settings in `items.py` and `settings.
 
 ## Project Structure
 
+```
 .  
 ├── LICENSE  
 ├── README.md  
@@ -67,6 +68,7 @@ The scraped data is saved according to the settings in `items.py` and `settings.
 - `spiders`: Directory containing spider definitions.
 - `scrapy.cfg`: Scrapy configuration file.
 - `README.md`: Project documentation file.
+```
 
 ## License
 
