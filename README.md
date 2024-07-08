@@ -26,9 +26,9 @@ Each scraper is unique to the project for which it is designed. The code in this
 
 Scrapy must be installed on the machine running the code. Read the [Scrapy documentation](https://docs.scrapy.org/en/latest/intro/install.html) for more information on installation. Once installed and configured, the spider runs using the following terminal command:
 
-    ```console
-    scrapy crawl -o file:csv homesteads
-    ```
+```console
+scrapy crawl -o file:csv homesteads
+```
 
 The scraped data is saved according to the settings in `items.py` and `settings.py`. In the above example, the data are exported to a file named `file.csv`.
 
