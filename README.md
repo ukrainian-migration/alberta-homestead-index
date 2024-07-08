@@ -1,6 +1,6 @@
 # Homesteads Spider
 
-This repository contains a Scrapy spider for scraping homestead data from the Alberta Homesteads website.
+This repository contains a [Scrapy](https://scrapy.org) spider for scraping homestead data from the Alberta Homestead Index website.
 
 ## Table of Contents
 
@@ -11,7 +11,7 @@ This repository contains a Scrapy spider for scraping homestead data from the Al
 
 ## Introduction
 
-The `HomesteadsSpider` scrapes homestead data from the [Alberta Homestead Index](https://www.abgenealogy.ca/alberta-homestead-index). The spider navigates through the paginated website, extracting data fields such as surname, name, section, township, range, meridian, place name, reference, film, and file numbers.
+The `homesteads` spider scrapes homestead data from the [Alberta Homestead Index](https://www.abgenealogy.ca/alberta-homestead-index). The spider navigates through the paginated website, extracting data fields such as surname, name, section, township, range, meridian, place name, reference, film, and file numbers.
 
 The Alberta Homestead Index was compiled by volunteers from the [Alberta Genealogical Society (AGS)](https://www.abgenealogy.ca) transcribing the applications for land patents, including all surnames. The index includes data from the following collections:
  - Alberta Land Patents, 1885‒1897
@@ -22,19 +22,13 @@ The homestead file index is an ‘all-name’ index, containing not only the nam
 
 ## Usage
 
-1. Navigate to the project directory (if not already there):
-
-    ```bash
-    cd homesteads
-    ```
-
-2. Run the spider:
+The code contained in this repository has been customized to run on a Mac operating system. Scrapy must be installed on the machine running this code. Read the [Scrapy documentation](https://docs.scrapy.org/en/latest/intro/install.html) for more information on installation. Once installed and configured, the spider runs using the following terminal command:
 
     ```bash
     scrapy crawl -o file:csv homesteads
     ```
 
-   The scraped data will be saved according to the settings in your `items.py` and Scrapy settings. In this example, the data are exported to a file named `file.csv`.
+The scraped data is saved according to the settings in `items.py` and `settings.py`. In the above example, the data are exported to a file named `file.csv`.
 
 ## Project Structure
 

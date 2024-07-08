@@ -1,0 +1,13 @@
+ffmpeg
+gawk
+ipython
+jupyterlab
+pyenv
+r
+rbenv
+rename
+scrapy
+tidy-html5
+tree
+wget
+youtube-dl
