@@ -22,9 +22,11 @@ The homestead file index is an ‘all-name’ index, containing not only the nam
 
 ## Usage
 
-The code contained in this repository has been customized to run on a Mac operating system. Scrapy must be installed on the machine running this code. Read the [Scrapy documentation](https://docs.scrapy.org/en/latest/intro/install.html) for more information on installation. Once installed and configured, the spider runs using the following terminal command:
+Each scraper is unique to the project for which it is designed. The code in this repository is meant to be illustrative of the data collection process for the Ukrainian migration project.
 
-    ```bash
+Scrapy must be installed on the machine running the code. Read the [Scrapy documentation](https://docs.scrapy.org/en/latest/intro/install.html) for more information on installation. Once installed and configured, the spider runs using the following terminal command:
+
+    ```console
     scrapy crawl -o file:csv homesteads
     ```
 
