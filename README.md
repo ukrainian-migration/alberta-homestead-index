@@ -59,6 +59,7 @@ The scraped data is saved according to the settings in `items.py` and `settings.
 │       └── homesteads_spider.py  
 ├── reference.html  
 └── scrapy.cfg  
+```
 
 - `homesteads`: The main project directory.
 - `items.py`: Defines the data structures for the scraped items.
@@ -68,7 +69,6 @@ The scraped data is saved according to the settings in `items.py` and `settings.
 - `spiders`: Directory containing spider definitions.
 - `scrapy.cfg`: Scrapy configuration file.
 - `README.md`: Project documentation file.
-```
 
 ## License
 
