@@ -31,29 +31,30 @@ The `HomesteadsSpider` scrapes homestead data from the Alberta Homesteads websit
 
 ## Project Structure
 
-.
-├── LICENSE
-├── README.md
-├── homesteads
-│ ├── init.py
-│ ├── pycache
-│ │ ├── init.cpython-312.pyc
-│ │ ├── items.cpython-312.pyc
-│ │ ├── middlewares.cpython-312.pyc
-│ │ ├── pipelines.cpython-312.pyc
-│ │ └── settings.cpython-312.pyc
-│ ├── items.py
-│ ├── middlewares.py
-│ ├── pipelines.py
-│ ├── settings.py
-│ └── spiders
-│ ├── init.py
-│ ├── pycache
-│ │ ├── init.cpython-312.pyc
-│ │ └── homesteads_spider.cpython-312.pyc
-│ └── homesteads_spider.py
-├── reference.html
-└── scrapy.cfg
+.  
+├── LICENSE  
+├── README.md  
+├── directory-structure.md  
+├── homesteads  
+│   ├── __init__.py  
+│   ├── __pycache__  
+│   │   ├── __init__.cpython-312.pyc  
+│   │   ├── items.cpython-312.pyc  
+│   │   ├── middlewares.cpython-312.pyc  
+│   │   ├── pipelines.cpython-312.pyc  
+│   │   └── settings.cpython-312.pyc  
+│   ├── items.py  
+│   ├── middlewares.py  
+│   ├── pipelines.py  
+│   ├── settings.py  
+│   └── spiders  
+│       ├── __init__.py  
+│       ├── __pycache__  
+│       │   ├── __init__.cpython-312.pyc  
+│       │   └── homesteads_spider.cpython-312.pyc  
+│       └── homesteads_spider.py  
+├── reference.html  
+└── scrapy.cfg  
 
 - `homesteads`: The main project directory.
 - `items.py`: Defines the data structures for the scraped items.
