@@ -11,7 +11,15 @@ This repository contains a Scrapy spider for scraping homestead data from the Al
 
 ## Introduction
 
-The `HomesteadsSpider` scrapes homestead data from the Alberta Homesteads website. The spider navigates through the paginated website, extracting relevant data fields such as surname, name, section, township, range, meridian, place name, reference, film, and file numbers.
+The `HomesteadsSpider` scrapes homestead data from the [Alberta Homestead Index](https://www.abgenealogy.ca/alberta-homestead-index). The spider navigates through the paginated website, extracting data fields such as surname, name, section, township, range, meridian, place name, reference, film, and file numbers.
+
+The Alberta Homestead Index was compiled by volunteers from the [Alberta Genealogical Society (AGS)](https://www.abgenealogy.ca) transcribing the applications for land patents, including all surnames. The index includes data from the following collections:
+
+	- Alberta Land Patents, 1885‒1897
+	- Alberta Homestead Records, 1870‒1930
+	- Alberta Homestead Records, post-1930
+
+The homestead file index is an ‘all-name’ index, containing not only the name of the person who ultimately may have obtained patent on the land, but also those who may have previously applied for a homestead on that land and anyone else who appear in the file because they had some kind of interest in the land.
 
 ## Usage
 
